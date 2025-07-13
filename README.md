@@ -36,7 +36,7 @@ Cette application Laravel permet de gérer une bibliothèque virtuelle où les u
 
 ### 1. Cloner le dépôt
 
-    git clone 
+    git clone https://github.com/diams45588/Books_reviews.git
     cd <NOM_DU_REPERTOIRE>
 
 ### 2. Installer les dépendances PHP avec Composer
