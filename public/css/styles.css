@@ -1,0 +1,106 @@
+body {
+    background: url('../images/covers/library.jpeg') no-repeat center center fixed; /* Image de fond de la bibliothèque */
+    background-size: cover; /* Couvre toute la page */
+    font-family: 'Merriweather', serif;
+    color: #ffffff; /* Couleur blanche pour le texte */
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgba(139, 69, 19, 0.8); /* Couleur marron avec transparence */
+    padding: 10px;
+    position: sticky; /* Reste en haut lors du défilement */
+    top: 0;
+    z-index: 1000; /* Assure que la navbar est au-dessus du contenu */
+}
+
+nav ul {
+    list-style: none; /* Supprime les puces */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between; /* Espace entre les éléments */
+}
+
+nav ul li {
+    margin: 0 15px; /* Espacement entre les éléments de la navbar */
+}
+
+nav a {
+    color: white; /* Couleur du texte */
+    text-decoration: none; /* Supprime le soulignement */
+    font-weight: bold; /* Met le texte en gras */
+}
+
+nav form {
+    display: flex; /* Aligne les éléments du formulaire horizontalement */
+}
+
+nav input[type="text"] {
+    padding: 5px;
+    border: none; /* Supprime la bordure */
+    border-radius: 5px 0 0 5px; /* Arrondit les coins à gauche */
+}
+
+nav button {
+    padding: 5px 10px;
+    background-color: #b98355; /* soft-brown-500 */
+    color: white;
+    border: none; /* Supprime la bordure */
+    border-radius: 0 5px 5px 0; /* Arrondit les coins à droite */
+    cursor: pointer; /* Change le curseur au survol */
+}
+
+nav button:hover {
+    background-color: #946a43; /* soft-brown-600 */
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Merriweather', serif;
+    color: #ffffff; /* soft-brown-900 */
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.book-item {
+    background: rgba(126, 51, 8, 0.8);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.book-cover {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.details-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #946a43; /* soft-brown-600 */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.details-button:hover {
+    background-color: #b98355; /* soft-brown-500 */
+}
+
+.a{
+    text-decoration: none;
+    color: #ffffff; /* Couleur blanche pour les liens */
+}
